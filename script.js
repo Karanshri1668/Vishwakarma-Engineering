@@ -30,23 +30,4 @@
  });
 
 
- // Contact Form Submission
- const contactForm = document.getElementById('contactForm');
-        
- contactForm.addEventListener('submit', (e) => {
-     e.preventDefault();
-     
-     // Get form values
-     const name = document.getElementById('name').value;
-     const email = document.getElementById('email').value;
-     const phone = document.getElementById('phone').value;
-     const subject = document.getElementById('subject').value;
-     const message = document.getElementById('message').value;
-     
-     // Here you would typically send the form data to a server
-     // For this example, we'll just show an alert
-     alert(`Thank you, ${name}! Your message has been received. We will contact you soon.`);
-     
-     // Reset the form
-     contactForm.reset();
- });
+ 
